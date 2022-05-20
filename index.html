@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player V.2</title>
+
+    <!-- style shit -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/8292d0f494.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contentBox">
+        <!-- topbar -->
+        <div class="topBar">
+            <div class="text">Music</div>
+            <div class="mCount">
+                <div id="MusicCount">1</div>/
+                <div id="totelSong">4</div>
+            </div>
+        </div>
+        <!-- maneContent -->
+        <div class="maneContent">
+            <!-- left site -->
+            <div class="cLeft">          
+                <img id="image" src="img/music.jpg" alt="">
+                <div class="soundContent">
+                    <i class="soundIcons fas fa-volume-up"></i>
+                    <div id="soundBg" class="soundBg">
+                        <div id="sound" class="sound"></div>
+                    </div>
+                </div>              
+            </div>
+            <!-- right site -->
+            <div class="cRight">
+                <span id="songName">ChrisLater & DanyYeager</span><br>
+                <div class="singerName" id="singerName">Taiba Islam</div>
+                <div id="autoPlay" class="autoPlay"><i class="fa-solid fa-arrows-rotate"></i> auto play</div>
+                <div class="time">
+                    <div class="upDateTime">0:00</div>
+                    <div class="totelTime">2:41</div>
+                </div>
+                <div class="progressBar">
+                    <div id="upDateBar" class="upDateBar"></div>
+                </div>
+                <div class="contorler">
+                    <i id="backward" class="fa-solid fa-backward"></i>
+                    <i id="play" class="fa-solid fa-play"></i>
+                    <i id="forward" class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="music">
+        <source src="music/ChrisLater-&-DanyYeager.mp3" >
+    </audio>
+
+
+
+    <!-- javaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

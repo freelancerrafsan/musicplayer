@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background: #40407a;
+    display: grid;
+    place-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.contentBox
+{
+    background: #2c2c54;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.329),-1px -1px 3px black;
+}
+.mCount
+{
+    display: flex;
+}
+.topBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aquamarine;
+}
+.text{margin: 15px;}
+.mCount{margin: 15px;}
+
+.maneContent
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+}
+.soundContent
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+}
+.soundBg
+{
+    width: 50%;
+    height: 4px;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.486),-1px -1px 3px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sound
+{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.soundIcons
+{
+    cursor: pointer;
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px !important;
+    background-color: #40407a;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.cLeft
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 40%;
+}
+.cLeft img
+{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.486),-1px -1px 3px black;
+}
+
+.cRight
+{
+    margin-right: 100px;
+    width: 25%;
+}
+#songName
+{
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.singerName
+{
+    color: #ffffff;
+    margin: 10px 30px 0px 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.autoPlay
+{
+    width: 150px;
+    height: 30px;
+    background: #40407a;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.progressBar
+{
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.486),-1px -1px 3px black;
+    border-radius: 5px;
+}
+.upDateBar
+{
+    width: 0%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 5px;
+}
+.time
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.contorler
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.contorler i
+{
+    background-color: #40407a;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.486),-1px -1px 3px black;
+    color: aliceblue;
+}
+
+
